@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Productos - Tienda</title>
+  <script defer src="app.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    .producto { border: 1px solid #ddd; padding: 10px; margin: 10px; border-radius: 5px; }
+    .producto h3 { margin: 0 0 5px; }
+    .btn { padding: 6px 10px; background: #0284c7; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Productos a la venta</h1>
+
+  <label for="filtro">Filtrar por nombre:</label>
+  <input type="text" id="filtro" placeholder="Ej: teclado" />
+
+  <div id="productos"></div>
+
+  <h2>🛒 Carrito</h2>
+  <ul id="carrito"></ul>
+  <button class="btn" onclick="realizarCompra()">Comprar</button>
+</body>
+</html>

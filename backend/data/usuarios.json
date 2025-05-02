@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Agust\u00edn",
+    "apellido": "Acosta",
+    "email": "agustin.acosta@gmail.com",
+    "contrase\u00f1a": "hashed1234"
+  },
+  {
+    "id": 2,
+    "nombre": "Luc\u00eda",
+    "apellido": "Mart\u00ednez",
+    "email": "lucia.martinez@hotmail.com",
+    "contrase\u00f1a": "hashed5678"
+  }
+]
