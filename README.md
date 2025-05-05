@@ -3,12 +3,12 @@
 
 Este proyecto incluye un backend en Express.js y un frontend estático que permite listar productos, filtrarlos, agregarlos a un carrito y realizar compras.
 
-## 📂 Estructura
+## Estructura
 
 - `backend/` → API con Express.js
 - `frontend/` → HTML, JS y LocalStorage
 
-## ▶️ Cómo correr
+## Cómo correr
 
 1. Ir a la carpeta `backend` y correr:
 
